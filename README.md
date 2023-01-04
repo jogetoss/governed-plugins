@@ -1,6 +1,6 @@
 # Description
 
-This bundle contains Governed Plugin（Client Side） which to get the plugin configuration from Governance Center App.
+This bundle contains Governed Plugin（Client Side）which used to get the plugin configuration from Governance Center App.
 
 # Getting Help
 
