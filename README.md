@@ -1,6 +1,6 @@
 # Description
 
-This repository is meant to serve as a general template for how to set up new repositories in the JogetOSS organization. 
+This bundle contains Governed Plugin（Client Side） which to get the plugin configuration from Governance Center App.
 
 # Getting Help
 

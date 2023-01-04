@@ -1,0 +1,27 @@
+[
+    {
+        "title": "@@GovernedWebSupport.config@@",
+        "properties": [
+            {
+                "name": "url",
+                "label": "@@GovernedWebSupport.url@@",
+                "type": "textfield",
+                "required": "True"
+            },
+            {
+                "name": "key",
+                "label": "@@GovernedWebSupport.apiKey@@",
+                "type": "textfield",
+                "required": "True"
+            },
+            {
+                "name" : "cid",
+                "label" : "@@GovernedWebSupport.source@@",
+                "type" : "selectbox",
+                "required" : "True",
+                "options_ajax" : "[CONTEXT_PATH]/web/json/app[APP_PATH]/plugin/org.joget.gcoe.GcoeWebSupport/service?type=%s",
+                "options_ajax_on_change" : "url;key"
+            }
+        ]
+    }
+]
